@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleView">
+        <attr name="rectWidth" format="dimension"/>
+        <attr name="rectSpace" format="dimension"/>
+        <!--颜色-->
+        <attr name="textColor" format="string"/>
+    </declare-styleable>
+</resources>

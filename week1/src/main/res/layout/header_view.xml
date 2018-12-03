@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/Search_Edit"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:background="@drawable/edit_bg"
+        android:drawablePadding="5dp"
+        android:hint="搜索"/>
+    <Button
+        android:id="@+id/Cancel_Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="添加"/>
+</LinearLayout>
